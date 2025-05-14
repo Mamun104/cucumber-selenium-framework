@@ -1,4 +1,4 @@
-#  Cucumber Selenium Framework
+#  Behavior-Driven Development (BDD) Framework with Cucumber and Selenium 
 
 ## Introduction
 
@@ -82,7 +82,7 @@ cd cucumber-selenium-framework
 
 ---
 
-## 📊 Test Report
+## Test Report
 
 After test execution, reports will be available at:
 
