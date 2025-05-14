@@ -1,7 +1,7 @@
 .gradle
 build/
-gradlew
-gradlew.bat
 gradle/wrapper
 .idea
+gradlew
+gradlew.bat
 
