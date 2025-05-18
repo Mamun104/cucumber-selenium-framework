@@ -1,4 +1,4 @@
-#  Cucumber Selenium Framework
+#  Behavior-Driven Development (BDD) Framework with Cucumber and Selenium 
 
 ## Introduction
 
@@ -82,7 +82,7 @@ cd cucumber-selenium-framework
 
 ---
 
-## 📊 Test Report
+## Test Report
 
 After test execution, reports will be available at:
 
@@ -128,6 +128,8 @@ task generateReport {
 
 ## Result
 
+![image](https://github.com/user-attachments/assets/ebd51b6a-19b8-418d-afc2-ac4778794e8b)
 
+![image](https://github.com/user-attachments/assets/57ad64ad-b652-41be-b6d2-12de422d433c)
 
 
