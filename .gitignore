@@ -2,4 +2,6 @@
 build/
 gradle/wrapper
 .idea
+gradlew.bat
+gradle
 
