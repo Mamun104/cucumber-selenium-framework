@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'io.qameta.allure' version '2.11.2'
 }
 
 group = 'org.example'
@@ -18,12 +19,9 @@ dependencies {
     implementation 'net.masterthought:cucumber-reporting:5.7.4'
     // https://mvnrepository.com/artifact/io.qameta.allure/allure-junit4
     //testImplementation("io.qameta.allure:allure-junit4:2.29.1")
-    testImplementation 'io.qameta.allure:allure-cucumber6-jvm:2.20.1'
+    // https://mvnrepository.com/artifact/io.qameta.allure/allure-cucumber7-jvm
+    implementation("io.qameta.allure:allure-cucumber7-jvm:2.29.1")
+
 
 }
 
-allure {
-    version = '2.24.0'
-    autoconfigure = true
-    aspectjweaver = true
-}
