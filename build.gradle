@@ -17,6 +17,13 @@ dependencies {
     testImplementation 'io.github.bonigarcia:webdrivermanager:5.7.0'
     implementation 'net.masterthought:cucumber-reporting:5.7.4'
     // https://mvnrepository.com/artifact/io.qameta.allure/allure-junit4
-    testImplementation("io.qameta.allure:allure-junit4:2.29.1")
+    //testImplementation("io.qameta.allure:allure-junit4:2.29.1")
+    testImplementation 'io.qameta.allure:allure-cucumber6-jvm:2.20.1'
 
+}
+
+allure {
+    version = '2.24.0'
+    autoconfigure = true
+    aspectjweaver = true
 }

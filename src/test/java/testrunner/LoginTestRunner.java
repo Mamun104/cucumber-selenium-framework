@@ -25,11 +25,11 @@ import org.junit.runner.RunWith;
         glue = {"stepDefinitions", "setup"},
         plugin = {
                 "pretty",
+                "io.qameta.allure.cucumber6jvm.AllureCucumber6Jvm", // 👈 Allure plugin
                 "json:build/reports/cucumber.json"
         },
         monochrome = true
 )
-
 
 public class LoginTestRunner {
 
