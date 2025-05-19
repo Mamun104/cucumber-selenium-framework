@@ -16,5 +16,7 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     testImplementation 'io.github.bonigarcia:webdrivermanager:5.7.0'
     implementation 'net.masterthought:cucumber-reporting:5.7.4'
+    // https://mvnrepository.com/artifact/io.qameta.allure/allure-junit4
+    testImplementation("io.qameta.allure:allure-junit4:2.29.1")
 
 }
